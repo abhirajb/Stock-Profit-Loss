@@ -29,3 +29,16 @@ body {
     font-family: "Work Sans", sans-serif;
     text-align: center;
 }
+
+#btn {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
