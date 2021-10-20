@@ -32,7 +32,7 @@ function calLossPercent(){
 }
 
 function calculateProfitAndLoss(){
-    if(inputInitialPrice.value>inputCurrPrice.value){
+    if(inputInitialPrice.value<inputCurrPrice.value){
             const [getProfit,profitPercent] = calProfitPercent();
             msg.innerText = "HUrray! You made a profit of INR "+getProfit+" and profit percent is "+profitPercent;
 
